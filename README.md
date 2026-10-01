@@ -19,3 +19,10 @@ The downloadable CV is at:
 
 ## Privacy note
 The graduation diploma image was intentionally not included because it visibly contains personal document details.
+
+
+## v4 visual updates
+- Replaced the lab-cable photo with a cleaner automotive cybersecurity visual.
+- Added Cisco CCNA and CompTIA Network+ visual credential cards.
+- Added University of Padova branding in the education section.
+- Replaced the text-only MFD badge with the personal monogram.
