@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Portfolio of Mojtaba Fattah Damavandi — cybersecurity, embedded systems, software testing, and Python.">
+  <title>Mojtaba Fattah Damavandi — Cybersecurity & Embedded Systems</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="nav shell">
+    <a class="brand" href="#top">MFD</a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="button ghost small" href="assets/Mojtaba_Fattah_Damavandi_CV.pdf" target="_blank" rel="noopener">CV ↗</a>
+  </header>
+
+  <main id="top">
+    <section class="hero shell">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> Cybersecurity · Embedded Systems · Software Testing</p>
+        <h1>Mojtaba Fattah<br><em>Damavandi</em></h1>
+        <p class="lead">Computer Science MSc graduate with hands-on experience in automotive cybersecurity, ECU testing, CAN/CAN-FD, UDS, authentication analysis, and Python automation.</p>
+        <div class="actions">
+          <a class="button primary" href="#projects">Selected work</a>
+          <a class="button ghost" href="assets/Mojtaba_Fattah_Damavandi_CV.pdf" target="_blank" rel="noopener">Download CV</a>
+        </div>
+        <div class="links">
+          <a href="https://github.com/mfattahi1" target="_blank" rel="noopener">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/mfattahi1/" target="_blank" rel="noopener">LinkedIn ↗</a>
+          <span>Vicenza, Italy</span>
+        </div>
+      </div>
+
+      <div class="hero-media">
+        <img class="hero-photo" src="assets/portrait.jpg" alt="Portrait of Mojtaba Fattah Damavandi">
+        <div class="stat stat-a"><b>UDS / CAN-FD</b><span>Automotive security testing</span></div>
+        <div class="stat stat-b"><b>Python / Linux</b><span>Automation & analysis</span></div>
+      </div>
+    </section>
+
+    <section id="about" class="section shell two-col">
+      <div>
+        <p class="kicker">01 / About</p>
+        <h2>Security work close to the system.</h2>
+      </div>
+      <div class="copy">
+        <p>I work at the intersection of cybersecurity, networking, embedded systems, and software testing. My recent focus has been automotive ECU security: understanding diagnostic behavior, authentication, access control, protocol responses, and failure modes.</p>
+        <p>I also bring a long background in technical communication, teaching, photography, and visual content production — experience that strengthened how I explain complex ideas, document findings, and work with people across technical and non-technical contexts.</p>
+      </div>
+    </section>
+
+    <section id="experience" class="section shell">
+      <div class="section-head">
+        <div>
+          <p class="kicker">02 / Experience</p>
+          <h2>Hands-on testing, analysis & automation</h2>
+        </div>
+        <span class="pill">2025–2026</span>
+      </div>
+
+      <div class="feature-grid">
+        <article class="panel">
+          <div class="role-head">
+            <div>
+              <h3>Automotive ECU Penetration Testing</h3>
+              <p>Bluewind · Castelfranco Veneto, Italy</p>
+            </div>
+            <span>Oct 2025 — Apr 2026</span>
+          </div>
+          <ul>
+            <li>Conducted black-box security testing of automotive ECUs over CAN-FD and UDS.</li>
+            <li>Developed Python tooling for testing, validation, protocol analysis, and automation.</li>
+            <li>Analyzed certificate-based authentication mechanisms and access-control behavior.</li>
+            <li>Performed robustness testing including service scanning, session testing, and ISO-TP manipulation.</li>
+            <li>Investigated abnormal ECU behavior and documented findings for technical analysis.</li>
+          </ul>
+        </article>
+        <figure class="photo panel">
+          <img src="assets/lab.jpg" alt="Embedded automotive lab setup">
+          <figcaption>Hands-on embedded systems and ECU lab work.</figcaption>
+        </figure>
+      </div>
+
+      <div class="secondary-experience">
+        <article class="mini-card">
+          <span>2020–2023</span>
+          <h3>Computer Science Teacher & Student Counselor</h3>
+          <p>Taught foundational computer science, programming basics, and digital literacy while supporting students academically.</p>
+        </article>
+        <article class="mini-card">
+          <span>2012–2025</span>
+          <h3>Freelance Photographer & Visual Content Creator</h3>
+          <p>Managed end-to-end visual content projects, client communication, delivery, and creative problem-solving.</p>
+        </article>
+        <article class="mini-card">
+          <span>2016–2023</span>
+          <h3>Video & Media Production</h3>
+          <p>Produced and edited educational and promotional video content using tools including Adobe Premiere Pro and After Effects.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section shell">
+      <div class="section-head">
+        <div>
+          <p class="kicker">03 / Selected Projects</p>
+          <h2>Public work rooted in real ECU testing experience</h2>
+        </div>
+        <a class="text-link" href="https://github.com/mfattahi1" target="_blank" rel="noopener">All repositories ↗</a>
+      </div>
+
+      <div class="projects">
+        <a class="project panel" href="https://github.com/mfattahi1/uds-access-control-audit" target="_blank" rel="noopener">
+          <span class="index">01</span><span class="arrow">↗</span>
+          <h3>UDS Access Control Audit</h3>
+          <p>Compares UDS service accessibility before and after authentication in authorized ECU lab environments.</p>
+          <div class="chips"><span>Python</span><span>UDS</span><span>ECU</span><span>Access Control</span></div>
+        </a>
+        <a class="project panel" href="https://github.com/mfattahi1/uds-diagnostic-prober" target="_blank" rel="noopener">
+          <span class="index">02</span><span class="arrow">↗</span>
+          <h3>UDS Diagnostic Prober</h3>
+          <p>Read-only toolkit for probing diagnostic sessions and DID accessibility in ECU lab environments.</p>
+          <div class="chips"><span>Python</span><span>SocketCAN</span><span>Diagnostics</span></div>
+        </a>
+        <a class="project panel" href="https://github.com/mfattahi1/uds-auth-challenge-randomness" target="_blank" rel="noopener">
+          <span class="index">03</span><span class="arrow">↗</span>
+          <h3>Authentication Challenge Randomness</h3>
+          <p>Analyzes repetition, byte distribution, and randomness indicators in authentication challenges.</p>
+          <div class="chips"><span>Python</span><span>Authentication</span><span>Analysis</span></div>
+        </a>
+        <a class="project panel" href="https://github.com/mfattahi1/partial-auth-atomicity-test" target="_blank" rel="noopener">
+          <span class="index">04</span><span class="arrow">↗</span>
+          <h3>Partial Authentication Atomicity Test</h3>
+          <p>Evaluates whether privileged behavior is exposed before an authentication sequence fully completes.</p>
+          <div class="chips"><span>Python</span><span>UDS</span><span>Security Testing</span></div>
+        </a>
+      </div>
+    </section>
+
+    <section class="section shell skills">
+      <div>
+        <p class="kicker">04 / Skills</p>
+        <h2>Security + systems + communication</h2>
+      </div>
+      <div class="skill-list">
+        <span>Cybersecurity Testing</span>
+        <span>Vulnerability Assessment</span>
+        <span>CAN / CAN-FD</span>
+        <span>UDS</span>
+        <span>Authentication & Access Control</span>
+        <span>Python</span>
+        <span>Linux</span>
+        <span>Git</span>
+        <span>Network Security</span>
+        <span>TCP/IP</span>
+        <span>Testing & Validation</span>
+        <span>Technical Reporting</span>
+        <span>Technical Communication</span>
+      </div>
+    </section>
+
+    <section id="education" class="section shell">
+      <div class="section-head">
+        <div>
+          <p class="kicker">05 / Education</p>
+          <h2>MSc Computer Science — University of Padova</h2>
+        </div>
+        <span class="pill">Graduated Sep 2026</span>
+      </div>
+
+      <div class="education-grid">
+        <div class="edu-stack">
+          <article class="panel edu">
+            <span>2023–2026</span>
+            <h3>Master's degree, Computer Science</h3>
+            <p>Università degli Studi di Padova</p>
+          </article>
+          <article class="panel edu">
+            <span>2016–2018</span>
+            <h3>Bachelor's degree, Computer Software</h3>
+            <p>Azad University (IAU)</p>
+          </article>
+          <article class="panel edu">
+            <span>2013–2016</span>
+            <h3>Associate's degree, Computer Software Engineering</h3>
+            <p>Shamsipour Technical and Vocational College</p>
+          </article>
+          <article class="panel edu">
+            <span>Certifications</span>
+            <h3>Cisco CCNA · CompTIA Network+</h3>
+            <p>Networking, routing/switching, troubleshooting, and network-security foundations.</p>
+          </article>
+        </div>
+
+        <div class="edu-photos">
+          <figure class="photo panel">
+            <img src="assets/defense.jpg" alt="Mojtaba presenting his MSc thesis defense">
+            <figcaption>MSc thesis defense — University of Padova.</figcaption>
+          </figure>
+          <figure class="photo panel">
+            <img src="assets/graduation-indoor.jpg" alt="Mojtaba at his Computer Science graduation">
+            <figcaption>Computer Science graduation, 2026.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section shell contact">
+      <p class="kicker">06 / Contact</p>
+      <h2>Open to cybersecurity, embedded security, test & validation, and junior software opportunities.</h2>
+      <p>For opportunities or technical conversations, reach out by email or LinkedIn.</p>
+      <div class="actions centered">
+        <a class="button primary" href="mailto:mojtabafattahi373@gmail.com">Email me</a>
+        <a class="button ghost" href="https://www.linkedin.com/in/mfattahi1/" target="_blank" rel="noopener">LinkedIn ↗</a>
+        <a class="button ghost" href="https://github.com/mfattahi1" target="_blank" rel="noopener">GitHub ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="shell">
+    <span>© 2026 Mojtaba Fattah Damavandi</span>
+    <span>GitHub Pages portfolio</span>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
